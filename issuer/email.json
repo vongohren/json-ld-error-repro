@@ -1,0 +1,22 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/traceability/v1",
+        "https://w3id.org/security/bbs/v1"
+    ],
+    "id": "https://www.diwala.io/4eeope1d1d",
+    "issuer": "did:key:zUC76TFzdrf6kvBFoe1kQg3QZsupm6aatPr46eXMnPm86p5LooBf7ieWLerrNsvSVJtpujpXq4XPYSdc9fViBmAAmxAhdW8meRyJ2GDzAa5WKL7ja7EH6HiUxhEuK4dhxXLdFuN",
+    "type": [
+        "VerifiableCredential",
+        "EmailVerification"
+    ],
+    "name": "Verified email",
+    "description": "This is a credential of email attribute that has been verified through sending an email to the owner",
+    "issuanceDate": "Thu Jun 17 2021",
+    "credentialSubject": {
+        "type": [
+            "Person"
+        ],
+        "email": "bbs@vongohren.me"
+    }
+}
